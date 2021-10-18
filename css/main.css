@@ -1,0 +1,1001 @@
+body {
+    margin: 0;
+    background: url("../images/bg.png");
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: LoraRegular;
+    src: url("../fonts/LoraRegular.ttf");
+}
+
+@font-face {
+    font-family: LoraBold;
+    src: url("../fonts/LoraBold.ttf");
+}
+
+@font-face {
+    font-family: MullerRegular;
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: MullerBold;
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: CastellarRegular;
+    src: url("../fonts/Castellar.ttf");
+}
+
+#header-container {
+    max-width: 1170px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    cursor: pointer;
+    width: 135px;
+}
+
+#header-container #menu {
+    width: 353px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 239px;
+    margin-right: 285px;
+}
+
+#header-container #menu a {
+    text-decoration: none;
+    font-family: MullerRegular, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+#header-container #menu a:hover {
+    border-bottom: 1px solid #ae8959;
+}
+
+#header-container #action {
+    display: flex;
+    align-items: center;
+}
+
+#header-container #action span {
+    font-size: 15px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+#main-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#main-container #strong {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 180px;
+    font-family: CastellarRegular, sans-serif;
+    color: rgba(174, 137, 89, 0.08);
+    line-height: 180px;
+    z-index: -9999;
+}
+
+#main-container #club {
+    position: absolute;
+    left: 75px;
+    bottom: 0;
+    font-size: 180px;
+    font-family: CastellarRegular, sans-serif;
+    color: rgba(174, 137, 89, 0.08);
+    line-height: 180px;
+}
+
+#main-container #main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#main-container #main #main-image {
+    display: flex;
+    align-items: flex-end;
+}
+
+#main-container #main #main-text {
+    padding-left: 113px;
+    padding-bottom: 35px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+#main-text .title {
+    text-align: left;
+    width: 508px;
+}
+
+#main-container #main #main-text #subtitle {
+    font-size: 22px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 39px;
+    margin-bottom: 49px;
+}
+
+.button .btn {
+    background-color: rgb(174, 137, 89);
+    box-shadow: 0px 0px 18.75px 6.25px rgba(152, 108, 52, 0.2);
+    width: 232px;
+    height: 60px;
+    font-size: 18px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+#main-text .button .btn {
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+#main-text .button .btn:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+    -webkit-transition: all .5s
+}
+
+#features-bg {
+    background: #131318;
+}
+
+#features-bg #features-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#features-bg #features-container #features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+#features-bg #features-container #features .feature {
+    display: flex;
+    align-items: center;
+}
+
+#features-bg #features-container #features .feature .feature-text {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+
+#description-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#description-container .title {
+    font-size: 32px;
+    line-height: 1.156;
+    text-align: center;
+    margin: 100px auto 60px auto;
+    width: 585px;
+}
+
+#description-container #description-line {
+    border-right: 1px solid #ae8959;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 35px;
+}
+
+#description-image img {
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+#description-image:hover img {
+    transform: scale(1.1);
+    transition: all .5s;
+    -webkit-transition: all .5s
+}
+
+#description-container #description-line #description {
+    margin-bottom: 150px;
+}
+
+#description-container #description-line #description #description-barbershop {
+    display: flex;
+}
+
+#description-features .description-feature {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+#description-features .description-feature:last-child {
+    padding-bottom: 0;
+}
+
+#description-features .description-feature:first-child {
+    margin-top: 60px;
+}
+
+#description-features .description-feature .description-feature-image {
+    width: 31px;
+    height: 26px;
+    text-align: center;
+}
+
+.description-feature .description-feature-text {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 20px;
+}
+
+#description-container #description #description-text {
+    position: relative;
+    padding-left: 65px;
+}
+
+#description-container #description #description-text .description-text-title {
+    font-size: 16px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+#description-text #description-text-image {
+    position: absolute;
+    right: calc(50% - 99px);
+    bottom: -260px;
+}
+
+#instagram {
+    background: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#instagram #instagram-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-text {
+    padding: 55px 0 55px 83px;
+    font-size: 28px;
+    text-align: left;
+    width: 423px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+#instagram #instagram-container .button .btn {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    animation: btn 1s infinite
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-action {
+    margin-right: 170px;
+}
+
+#price #price-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#price #price-container #price-line {
+    margin-top: 101px;
+    margin-bottom: 103px;
+    border-left: 1px solid #AE8959;
+    padding-left: 83px;
+}
+
+#price #price-container #price-line .title {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 51px;
+}
+
+#price #price-container #price-general {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 53px;
+    position: relative;
+}
+
+#price #price-container #price-image {
+    position: absolute;
+    left: 264px;
+    top: 10px;
+}
+
+.price-title {
+    font-size: 25px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(174, 137, 89);
+    padding-bottom: 39px;
+    padding-top: 7px;
+}
+
+#price-right .price-title:last-child {
+    margin-top: 7px;
+}
+
+.haircut {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+#price-right .haircut:nth-child(9) {
+    margin-bottom: 0;
+}
+
+#price-left .haircut:nth-child(8) {
+    margin-bottom: 0;
+}
+
+#price-right {
+    width: 372px;
+    padding-right: 25px;
+}
+
+#price-left {
+    width: 372px;
+}
+
+.haircut-title {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.haircut-subtitle {
+    font-size: 14px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(89, 85, 80);
+    width: 240px;
+    padding-top: 10px;
+}
+
+#price-right .haircut-subtitle {
+    padding-top: 13px;
+}
+
+.haircut-price {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 90px;
+}
+
+#sale {
+    background: url("../images/bg3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#sale #sale-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sale #sale-container .title {
+    margin-left: 83px;
+}
+
+#sale #sale-container .title-text span {
+    font-family: LoraBold, sans-serif;
+    color: #ae8959;
+}
+
+#sale #sale-container .button.button-action.open-modal .btn {
+    animation: btn 1s infinite;
+}
+
+#personnel #personnel-container {
+    width: 1170px;
+    padding-bottom: 105px;
+    margin: 0 auto;
+}
+
+#personnel #personnel-container #personnel-line {
+    margin-top: 100px;
+    padding-bottom: 60px;
+    border-right: 1px solid #AE8959;
+    box-sizing: border-box;
+}
+
+#personnel #personnel-container #personnel-line .title {
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+}
+
+#personnel #personnel-container #personnel-description {
+    max-width: 810px;
+    margin: 59px auto 50px auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+}
+
+#personnel #personnel-container #master-general {
+    margin: 0 auto;
+    width: 1060px;
+    position: relative;
+}
+
+.master-image {
+    width: 292px;
+    height: 404px;
+}
+
+.master-image img {
+    width: 292px;
+    height: 404px;
+    filter: grayscale(100%);
+    object-fit: cover;
+
+}
+
+.master-btn {
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+.master-btn:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+    -webkit-transition: all .5s
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.master-action {
+    position: absolute;
+    bottom: 20px;
+    right: calc(50% - 81.5px);
+}
+
+.master-name {
+    font-size: 20px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.master-btn {
+    border: 1px solid rgb(174, 137, 89);
+    width: 163px;
+    height: 38px;
+    background: transparent;
+    font-size: 16px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.slick-prev {
+    left: 280px;
+    top: 520px;
+    width: 14px;
+    height: 28px;
+    z-index: 9999;
+}
+
+.slick-next {
+    right: 280px;
+    top: 520px;
+    width: 14px;
+    height: 28px;
+    z-index: 9999;
+}
+
+#master-general .slick-prev:before {
+    content: url("../images/prev.png");
+    opacity: 1;
+}
+
+#master-general .slick-next:before {
+    content: url("../images/next.png");
+    opacity: 1;
+}
+
+.slick-dots li {
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ae8959;
+    box-sizing: border-box;
+}
+
+.slick-dots li.slick-active button:before {
+    content: url("../images/pr1.png");
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    width: 16px;
+    height: 16px;
+}
+
+.slick-dots {
+    z-index: 999;
+    bottom: -58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul .slick-active {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ae8959;
+    box-sizing: border-box;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center, .master.slick-slide.slick-active, .master.slick-slide.slick-cloned.slick-active {
+    display: flex;
+    justify-content: space-around;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .master-image {
+    width: 460px;
+    height: 477px;
+    position: relative;
+    z-index: 999;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .master-image img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0%)
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .pr .master-action .master-button button {
+    background: rgb(174, 137, 89);
+    box-shadow: 0px 0px 18.75px 6.25px rgba(152, 108, 52, 0.2);
+    width: 165px;
+    height: 40px;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .pr .master-action {
+    position: absolute;
+    bottom: 30px;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .pr .master-action .master-name {
+    font-size: 25px;
+}
+
+.pr {
+    width: 292px;
+    height: 113px;
+    top: -113px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pr img {
+    height: 100%;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .pr {
+    height: 154px;
+    width: 460px;
+    top: -154px;
+}
+
+.master.slick-slide.slick-current.slick-active.slick-center .pr img {
+    width: 100%;
+    height: 100%;
+    top: 323px;
+}
+
+#footer {
+    background: #131318;
+}
+
+#footer #footer-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#footer #footer-container #footer-contacts {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+#footer #footer-container #footer-contacts #footer-text {
+    font-size: 16px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 210px;
+    margin: 0 auto;
+}
+
+#footer #footer-container #footer-contacts #footer-text .logo {
+    margin: 0 auto 69px auto;
+}
+
+#footer-time {
+    width: 147px;
+    margin: 0 auto 40px auto;
+}
+
+#footer-address {
+    width: 187px;
+    margin: 0 auto 40px auto;
+}
+
+#footer-icon {
+    margin: 0 auto 60px auto;
+}
+
+.icons {
+    transition: .3s ease;
+}
+
+.icons:hover {
+    opacity: 0.1;
+    transition: all .3s;
+}
+
+#footer-icon #social {
+    margin: 0 auto 20px auto;
+}
+
+#footer-icon #icon {
+    width: 130px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer-mail {
+    margin: 0 auto 20px auto;
+}
+
+#cart {
+    background: white;
+    width: 865px;
+    height: 460px;
+}
+
+
+#cart .cart-size iframe {
+    background: white;
+    width: 865px;
+    height: 430px;
+}
+
+#footer-rignt-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+#footer-right, #design-name {
+    font-size: 14px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(80, 79, 79);
+}
+
+#burger {
+    display: none;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#menu svg {
+    display: none;
+}
+
+#sale-popup-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    padding-top: 20px;
+}
+
+#sale-popup {
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 40.67px 8.33px rgba(2, 7, 8, 1);
+    width: 270px;
+    padding: 45px 35px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#sale-popup #sale-popup-cancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#sale-popup #sale-popup-content {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.btn-onl {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    padding-top: 20px;
+}
+
+#reservation-container {
+    display: none;
+    position: relative;
+    bottom: 1352px;;
+    right: 0;
+}
+
+#reservation-container.btn-onl {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    padding-top: 20px;
+}
+
+#reservation-sent {
+    display: none;
+}
+
+#reservation {
+    position: relative;
+    width: 1070px;
+    height: 490px;
+    background-image: url("../images/Бг.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#reservation-content {
+    padding: 60px 0;
+}
+
+#reservation #reservation-cancel {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#reservation-content #reserve {
+    display: flex;
+    width: 810px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.block-title {
+    font-size: 25px;
+    font-family: LoraRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto 60px auto;
+    width: 292px;
+}
+
+.reserve-input {
+    margin-bottom: 40px;
+}
+
+.reserve-input input {
+    border: 1px solid rgb(174, 137, 89);
+    width: 223px;
+    height: 43px;
+    background: transparent;
+    padding: 15px;
+    outline: 0;
+    font-size: 16px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.reserve-input input:active {
+    background: transparent;
+}
+
+.reserve-input input::placeholder {
+    font-size: 16px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.reserve-input .reserve-select select {
+    border: 1px solid rgb(174, 137, 89);
+    width: 223px;
+    height: 43px;
+    background: transparent;
+    padding: 12px;
+    outline: 0;
+    font-size: 16px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    appearance: none;
+    position: relative;
+    z-index: 999999;
+}
+
+.reserve-input .reserve-select select option {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(174, 137, 89);
+    font-family: MullerRegular, sans-serif;
+    min-height: 50px;
+}
+
+.reserve-input .reserve-select {
+    width: 223px;
+    height: 43px;
+    position: relative;
+}
+
+.select-arrow-3 {
+    position: absolute;
+    border-bottom: 0;
+    right: 15px;
+    top: calc(50% - 8px);
+}
+
+#reserve-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#reserve-button .master-btn.btn-orange {
+    background: rgb(174, 137, 89);
+    box-shadow: 0px 0px 18.75px 6.25px rgba(152, 108, 52, 0.2);
+    width: 232px;
+    height: 60px;
+    font-size: 18px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#reservation-sent {
+    width: 360px;
+    margin: 0 auto;
+}
+
+#reservation-sent-text {
+    font-size: 18px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    text-align: center;
+    width: 362px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+#reservation-sent .block-title {
+    padding-top: 60px;
+}
+
+.error-input {
+    font-size: 15px;
+    color: red;
+    display: none;
+    position: absolute;
+}
+
+input:active {
+    background: transparent;
+}
+

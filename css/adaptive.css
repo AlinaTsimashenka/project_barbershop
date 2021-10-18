@@ -1,0 +1,1250 @@
+@media screen and (max-width: 1250px) {
+    #header-container, #main-container, #features-bg #features-container, #description-container, #instagram #instagram-container,
+    #price #price-container, #sale #sale-container, #personnel #personnel-container, #footer #footer-container {
+        width: 90%;
+    }
+
+    #header-container {
+        justify-content: space-between;
+    }
+
+
+    #header-container #menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    #description-container #description #description-text {
+        padding-left: 40px;
+        padding-right: 15px;
+
+    }
+
+    #description-container #description-line {
+        padding-right: 0;
+    }
+
+    #footer #footer-container #footer-contacts {
+        align-items: center;
+    }
+
+
+    #cart {
+        background: white;
+        width: 800px;
+        height: 390px;
+    }
+
+    #cart .cart-size iframe {
+        background: white;
+        width: 800px;
+        height: 390px;
+    }
+
+
+    #main-container #main #main-image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    #main-container #main {
+        position: relative;
+    }
+
+    #main-container #main #main-text {
+        padding-top: 200px;
+        padding-bottom: 230px;
+    }
+
+
+}
+
+@media screen and (max-width: 1220px) {
+    #main-container #main #main-image {
+        right: -30px;
+    }
+
+}
+
+
+/*1024-1199*/
+@media screen and (max-width: 1199px) {
+
+
+    #reservation-container {
+        position: fixed;
+        width: 100%;
+        height: 490px;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 99999;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        padding-top: 20px;
+    }
+
+
+    #reservation {
+        width: 500px;
+    }
+
+    .reserve-input input {
+        width: 187px;
+        height: 34px;
+    }
+
+    .reserve-input input::placeholder {
+        font-size: 14px;
+    }
+
+    .reserve-input .reserve-select select {
+        width: 187px;
+        height: 34px;
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    #reservation-content #reserve {
+        width: 420px;
+    }
+
+    .reserve-input .reserve-select {
+        width: 187px;
+        height: 34px;
+    }
+
+    .block-title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    #main-container #main #main-text {
+        padding-left: 0;
+    }
+
+    #description-image img {
+        width: 500px;
+    }
+
+    #description-container #description #description-text .description-text-title {
+        padding-bottom: 20px;
+    }
+
+    #description-container #description-line #description #description-barbershop {
+        justify-content: space-between;
+    }
+
+
+    #description-container #description #description-text {
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+
+    #description-text #description-text-image img {
+        width: 160px;
+    }
+
+
+    .title-text {
+        padding-left: 0;
+    }
+
+    .button-action {
+        margin-right: 0;
+    }
+
+
+    #price-left, #price-right {
+        width: 350px;
+    }
+
+
+    #price #price-container #price-image {
+        left: 150px;
+        top: 63px;
+    }
+
+    #price #price-container #price-image img {
+        width: 500px;
+    }
+
+    #price #price-container #price-image {
+        width: 500px;
+        left: calc(50% - 250px);
+        top: calc(50% - 206px);
+    }
+
+
+    #personnel #personnel-container #personnel-line {
+        border-right: 1px solid transparent;
+    }
+
+
+    #personnel #personnel-container #master-general {
+        width: 848px;
+    }
+
+    .master-image {
+        width: 234px;
+        height: 323px;
+    }
+
+    .master-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pr {
+        width: 234px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr {
+        width: 368px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr img {
+        width: 100%;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .master-image {
+        width: 368px;
+        height: 382px;
+    }
+
+    .master-btn {
+        width: 144px;
+    }
+
+    .master-action {
+        right: calc(50% - 72px)
+    }
+
+
+    .slick-prev {
+        left: 200px;
+        top: 425px;
+    }
+
+    .slick-next {
+        right: 200px;
+        top: 425px;
+    }
+
+    #cart {
+        width: 700px;
+        height: 390px;
+    }
+
+    #cart .cart-size iframe {
+        width: 700px;
+        height: 390px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    #description-container #description #description-text {
+        padding-right: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1060px) {
+
+    #header-container {
+        margin-bottom: 60px;
+    }
+
+    #main-container #main #main-text {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+
+    #cart {
+        background: white;
+        width: 650px;
+    }
+
+    #cart .cart-size iframe {
+        background: white;
+        width: 650px;
+    }
+}
+
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+
+    #personnel #personnel-container #master-general {
+        width: 460px;
+    }
+
+    .master-image, .master.slick-slide.slick-current.slick-active.slick-center .master-image {
+        width: 460px;
+        height: 477px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr {
+        width: 460px;
+    }
+
+    .master-image img {
+        width: 460px;
+        height: 477px;
+    }
+
+    .slick-prev {
+        left: 0;
+        top: 520px;
+    }
+
+    .slick-next {
+        right: 0;
+        top: 520px;
+    }
+
+    #main-container #main #main-image img {
+        width: 450px;
+    }
+
+    #header #menu {
+        width: 270px;
+    }
+
+    #main-text .title {
+        font-size: 32px;
+        width: 408px;
+    }
+
+    #main-container #main #main-text #subtitle {
+        font-size: 16px;
+    }
+
+    #main-container #main #main-text {
+        padding: 100px 0 200px 0;
+    }
+
+    #main-container #strong {
+        font-size: 120px;
+        top: -80px;
+
+    }
+
+
+    #main-container #club {
+        font-size: 120px;
+        left: 0;
+    }
+
+    #description-barbershop {
+        flex-wrap: wrap;
+    }
+
+    #description-container .title {
+        margin-bottom: 50px;
+    }
+
+    #description-container #description #description-text, #description-features {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #description-container #description #description-text .description-text-title {
+        max-width: unset;
+        text-align: center;
+    }
+
+    #description-image {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    #description-image img {
+        width: 600px;
+    }
+
+    .description-feature {
+        justify-content: center;
+    }
+
+    #description-text #description-text-image {
+        bottom: -280px;
+    }
+
+    #price #price-container #price-line {
+        padding-left: 30px;
+    }
+
+
+    #price-left, #price-right {
+        width: 340px;
+    }
+
+    #price-right {
+        padding-right: 0;
+    }
+
+    #personnel #personnel-container #personnel-description {
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #features-bg #features-container #features .feature:first-child {
+        width: 252px;
+
+    }
+
+    #features-bg #features-container #features .feature {
+        width: 218px;
+    }
+
+    #features-bg #features-container #features .feature:last-child {
+        width: 252px;
+    }
+
+    #features-bg #features-container #features .feature .feature-text {
+        margin-left: 15px;
+    }
+
+    #footer #footer-container #footer-contacts {
+        justify-content: center;
+    }
+
+    #cart {
+        width: 480px;
+        height: 300px;
+    }
+
+    #cart .cart-size iframe {
+        width: 480px;
+        height: 300px;
+    }
+
+    #footer #footer-container #footer-contacts #footer-text .logo {
+        margin-bottom: 40px;
+    }
+
+    #footer #footer-container #footer-contacts #footer-text {
+        font-size: 14px;
+    }
+
+    #footer-time, #footer-address, #footer-icon {
+        margin-bottom: 20px;
+    }
+
+    #footer-icon #social {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .haircut-title, .haircut-price {
+        font-size: 16px;
+    }
+
+    .haircut-subtitle {
+        font-size: 13px;
+    }
+
+    #price-left, #price-right {
+        width: 320px;
+    }
+
+    .haircut-subtitle {
+        width: 210px;
+    }
+
+    #price-left, #price-right {
+        width: 290px;
+    }
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+
+    #header-container #menu {
+        width: 300px;
+    }
+
+    .feature-image {
+        width: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 840px) {
+
+    #features-bg #features-container #features .feature:first-child {
+        width: 200px;
+    }
+
+    #features-bg #features-container #features .feature {
+        width: 137px;
+    }
+
+    #features-bg #features-container #features .feature:last-child {
+        width: 166px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #header-container #menu {
+        width: 280px;
+    }
+
+    #main-container #main #main-image img {
+        width: 350px;
+    }
+
+    #main-container #main #main-text {
+        padding-bottom: 120px;
+    }
+
+    #main-container #club {
+        bottom: -37px;
+    }
+
+}
+
+
+/*580-767*/
+@media screen and (max-width: 767px) {
+
+
+    #personnel #personnel-container #personnel-line {
+        border-right: 1px solid transparent;
+    }
+
+    #main-container #main #main-text {
+        position: relative;
+        z-index: 999;
+
+    }
+
+    #main-container #strong, #main-container #club {
+        display: none;
+    }
+
+    #main-text .title {
+        font-size: 30px;
+        width: 387px;
+    }
+
+    #description-image {
+        text-align: center;
+    }
+
+    #description-image img {
+        width: 70%;
+        text-align: center;
+    }
+
+    #description-container .title {
+        width: 450px;
+    }
+
+    .description-feature {
+        justify-content: left;
+    }
+
+    #instagram-container .title-text {
+        font-size: 24px;
+        width: 365px;
+    }
+
+    #sale-container .title-text {
+        font-size: 24px;
+        width: 273px;
+    }
+
+    .button .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+
+    #price #price-container #price-general {
+        flex-wrap: wrap;
+    }
+
+    #price #price-container #price-image {
+        display: none;
+    }
+
+
+    .haircut-title, .haircut-price {
+        font-size: 18px;
+    }
+
+    .haircut-subtitle {
+        font-size: 14px;
+    }
+
+    #price-left, #price-right {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    #price-left {
+        padding-bottom: 39px;
+    }
+
+    #cart {
+        width: 400px;
+        height: 260px;
+
+    }
+
+    #cart .cart-size iframe {
+        width: 400px;
+        height: 260px;
+    }
+
+}
+
+@media screen and (max-width: 740px) {
+
+    #header-container #burger {
+        display: block;
+    }
+
+    #header-container.menu-open #menu {
+        display: flex;
+    }
+
+    #menu svg {
+        display: block;
+        width: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #header-container #menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 40px;
+        background: rgba(0, 0, 0, 0.9);
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    #header-container #menu a {
+        display: inline-block;
+        text-align: center;
+        margin: 15px 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 723px) {
+
+    #header-container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+    #main-container #main #main-text {
+        padding-bottom: 80px;
+        padding-top: 40px;
+    }
+
+    #main-container #main #main-image img {
+        width: 288px;
+    }
+
+    #main-container #main #main-text #subtitle {
+        width: 277px;
+    }
+
+    #main-container #main #main-image {
+        position: absolute;
+        right: 0;
+    }
+
+    #personnel #personnel-container #personnel-description {
+        margin-top: 32px;
+    }
+
+    #footer #footer-container #footer-contacts #footer-text {
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 651px) {
+
+    #main-container #main #main-image {
+        right: -30px;
+    }
+
+    #features-bg #features-container #features .feature, #features-bg #features-container #features .feature:first-child, #features-bg #features-container #features .feature:last-child {
+        width: 100%;
+    }
+
+    #features-bg #features-container #features {
+        flex-wrap: wrap;
+        width: 313px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    #features-bg #features-container #features .feature {
+        padding: 10px 0;
+    }
+
+    #description-features .description-feature {
+        max-width: 450px;
+        justify-content: center;
+    }
+
+    .description-feature .description-feature-text {
+        max-width: 350px;
+    }
+
+
+    #description-image img {
+        width: 300px;
+    }
+
+    #instagram-container .title-text {
+        font-size: 20px;
+        width: 324px;
+    }
+
+    #sale-container .title-text {
+        font-size: 20px;
+        width: 273px;
+    }
+
+
+    #personnel #personnel-container #personnel-line {
+        padding-bottom: 16px;
+    }
+
+    #footer #footer-container #footer-contacts {
+        flex-wrap: wrap;
+        max-width: 500px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #footer #footer-container #footer-contacts #footer-text {
+        margin-bottom: 20px;
+    }
+
+    #footer #footer-container #footer-contacts #footer-text {
+        padding-right: 0;
+    }
+
+    #cart {
+        width: 400px;
+        height: 260px;
+    }
+
+    #cart .cart-size iframe {
+        width: 400px;
+        height: 260px;
+    }
+}
+
+
+@media screen and (max-width: 611px) {
+
+    #main-container #main {
+        flex-wrap: wrap;
+    }
+
+    #main-container #main #main-text {
+        padding-bottom: 30px;
+        padding-top: 25px;
+        margin: 0 auto;
+    }
+
+    #main-text .title {
+        text-align: center;
+    }
+
+    #main-container #main #main-text #subtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button.open-form {
+        text-align: center;
+    }
+
+    #main-container #main #main-image {
+        position: static;
+        margin: 0 auto;
+    }
+
+    #reservation {
+        width: 295px;
+    }
+
+    .reserve-input input {
+        width: 187px;
+        height: 34px;
+    }
+
+    #reservation-container.btn-onl {
+        padding-top: 60px;
+    }
+
+    #reservation-content {
+        padding: 40px 0;
+    }
+
+    .reserve-input input::placeholder {
+        font-size: 14px;
+    }
+
+    .reserve-input .reserve-select select {
+        width: 187px;
+        height: 34px;
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    .reserve-input {
+        margin-bottom: 20px;
+
+    }
+
+    #reserve-button {
+        margin-top: 10px;
+    }
+
+    .error-input {
+        width: 200px;
+        padding-bottom: 5px;
+        font-size: 13px;
+
+    }
+
+    #reservation-content #reserve {
+        width: 187px;
+        height: 100%;
+    }
+
+    .reserve-input .reserve-select {
+        width: 187px;
+        height: 34px;
+    }
+
+    .block-title {
+        padding-bottom: 20px;
+        font-size: 18px;
+        width: 230px;
+        margin: 0 auto;
+    }
+
+    #reserve-button .master-btn.btn-orange {
+        background: rgb(174, 137, 89);
+        width: 187px;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    #reservation-sent {
+        width: 290px;
+    }
+
+    #reservation-sent-text {
+        font-size: 13px;
+        width: 200px;
+        height: 43px;
+        margin: 0 auto;
+    }
+
+
+    #personnel #personnel-container #master-general {
+        margin-top: 0;
+
+    }
+
+    #personnel #personnel-container #personnel-description {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+/*480-579*/
+@media screen and (max-width: 579px) {
+
+
+    #description-container .title {
+        width: 390px;
+    }
+
+    #instagram-container .title-text {
+        width: 265px;
+    }
+
+    #personnel #personnel-container #personnel-description {
+        margin-bottom: 30px;
+    }
+
+    #personnel #personnel-container #master-general {
+        width: 292px;
+        height: 404px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .master-image, .master-image, .master-image img {
+        width: 292px;
+        height: 404px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr {
+        width: 292px;
+        height: 113px;
+        top: -113px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr .master-action {
+        position: absolute;
+        bottom: 20px;
+        right: calc(50% - 81.5px);
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr .master-action .master-name {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr .master-action .master-button .master-btn {
+        border: 1px solid rgb(174, 137, 89);
+        width: 163px;
+        height: 38px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    .slick-dots li button:before {
+        width: 12px;
+        height: 12px;
+        overflow: hidden;
+    }
+
+    .slick-dots li.slick-active button:before {
+        top: calc(50% - 6px);
+        left: calc(50% - 6px);
+    }
+
+    .slick-dots li {
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+    ul .slick-active {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slick-prev {
+        left: -40px;
+        top: calc(50% - 14px);
+    }
+
+    .slick-next {
+        right: -40px;
+        top: calc(50% - 14px);
+    }
+
+    #footer-rignt-design {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #footer-right {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+    #instagram #instagram-container {
+        flex-wrap: wrap;
+    }
+
+    #instagram-container .title-text {
+        padding: 60px 0 30px 0;
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    #instagram-button {
+        margin: 0 auto 30px auto;
+    }
+
+    #sale #sale-container {
+        flex-wrap: wrap;
+    }
+
+    #sale-container .title-text {
+        padding: 60px 0 30px 0;
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .button-action {
+        margin: 0 auto 60px auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+
+    #main-text .title {
+        width: 288px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #main-container #main #main-text #subtitle {
+        text-align: center;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    #main-container #main #main-image img {
+        width: 288px;
+    }
+
+    #main-container #strong, #main-container #club {
+        display: none;
+    }
+
+    .description-feature .description-feature-text {
+        max-width: 292px;
+    }
+
+}
+
+
+/*320-479*/
+@media screen and (max-width: 479px) {
+
+    #header-container #action {
+        display: none;
+    }
+
+    #description-features .description-feature {
+        justify-content: center;
+    }
+
+    #description-container .title {
+        width: 301px;
+        margin-top: 80px;
+    }
+
+    #description-container #description-line {
+        border-right: none;
+    }
+
+    #description-image img {
+        width: 288px;
+    }
+
+    #description-container #description #description-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .description-feature .description-feature-text {
+        width: 288px;
+        margin-left: 10px;
+    }
+
+    #description-features .description-feature .description-feature-image {
+        width: 44px;
+        height: 26px;
+    }
+
+    #description-features .description-feature:first-child {
+        margin-top: 40px;
+    }
+
+    #description-text #description-text-image img {
+        width: 140px;
+    }
+
+    #description-text #description-text-image {
+        bottom: -225px;
+        right: calc(50% - 65px);
+    }
+
+    #description-container #description-line #description {
+        margin-bottom: 120px;
+    }
+
+    #description-features {
+        padding-left: 0;
+    }
+
+    #price #price-container #price-line {
+        border-left: none;
+    }
+
+    #price-left, #price-right {
+        padding: 0 10px;
+        margin-bottom: 39px;
+    }
+
+    #price #price-container #price-line {
+        padding-left: 0;
+    }
+
+    .price-title {
+        font-size: 22px;
+    }
+
+    .haircut-title, .haircut-price {
+        font-size: 16px;
+    }
+
+    .haircut-subtitle {
+        width: 189px;
+    }
+
+    #price #price-container #price-general {
+        margin-bottom: 0;
+
+    }
+
+    #sale #sale-container {
+        flex-wrap: wrap;
+    }
+
+    #sale-container .title-text {
+        padding: 30px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .button-action {
+        margin: 0 auto 30px auto;
+    }
+
+    #personnel #personnel-container #personnel-description {
+        margin-top: 40px;
+    }
+
+    .slick-prev {
+        left: -30px;
+        top: calc(50% - 14px);
+    }
+
+    .slick-next {
+        right: -30px;
+        top: calc(50% - 14px);
+    }
+
+    #footer #footer-container #footer-contacts {
+        padding-bottom: 50px;
+
+    }
+
+    #cart {
+        width: 330px;
+        height: 210px;
+    }
+
+    #cart .cart-size iframe {
+        width: 330px;
+        height: 210px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #personnel #personnel-container #master-general {
+        width: 216px;
+        height: 298px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .master-image, .master-image, .master-image img {
+        width: 216px;
+        height: 298px;
+    }
+
+    .master.slick-slide.slick-current.slick-active.slick-center .pr {
+        width: 216px;
+        height: 113px;
+        top: -113px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    #main-container #main #main-image img {
+        width: 235px;
+    }
+
+    #features-bg #features-container #features {
+        width: 215px;
+        justify-content: center;
+    }
+
+    #cart {
+        width: 280px;
+        height: 160px;
+    }
+
+    #cart .cart-size iframe {
+        width: 280px;
+        height: 160px;
+    }
+
+}
+
+
+
+
